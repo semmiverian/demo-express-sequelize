@@ -152,6 +152,8 @@ app.get('/user-get-all-items', (req, res) => {
   // User.findById(15, {include: [ Item ]}).then(userWithItem => {
   //   res.send(userWithItem)
   // })
+
+  console.log('haiii')
   User.findById(15).then(user => {
     console.log('aaaaa')
     user.getItems().then(item => {
