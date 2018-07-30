@@ -1,8 +1,8 @@
 {
   "development": {
-    "username": "Semmiverian",
-    "password": null,
-    "database": "monday",
+    "username": "postgres",
+    "password": "999999",
+    "database": "project_week3_db",
     "host": "127.0.0.1",
     "dialect": "postgres"
   },
